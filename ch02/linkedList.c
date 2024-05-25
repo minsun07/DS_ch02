@@ -8,7 +8,7 @@ int main(void) {
 	};
 
 	char input = ' ';
-	struct node* head, * p;
+	struct node* head, * p; 
 	head = (struct node*)malloc(sizeof(struct node));
 	p = head;
 	p->data = input;
