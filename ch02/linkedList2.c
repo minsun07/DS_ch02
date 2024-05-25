@@ -11,7 +11,7 @@ struct student {
 	struct student* link;
 };
 
-void input(struct student* p) {
+void input(struct student* p) { 
 	printf("\n학번(4자리): ");
 	gets_s(p->hakbun, 5);
 
