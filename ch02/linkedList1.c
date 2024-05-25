@@ -31,7 +31,7 @@ int main(void) {
 	printf("\n연결리스트 출력: ");
 	p = head->link;
 
-	while (p != NULL) {
+	while (p != NULL) { 
 		printf("%c", p->data);
 		p = p->link;
 		if (p != NULL)printf(" -> ");
