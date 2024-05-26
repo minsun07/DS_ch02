@@ -13,7 +13,7 @@ int cnt = 0;
 int push(int data) {
 	struct node* addNode;
 
-	if (cnt >= SIZE) {
+	if (cnt >= SIZE) { 
 		printf("Stack Overflow!\n");
 		return -1;
 	}
