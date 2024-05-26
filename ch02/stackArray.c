@@ -21,7 +21,7 @@ int pop(void) {
 	return stack[top--];
 }
 
-int main(void) {
+int main(void) { 
 	push(10);
 	push(20);
 	push(30);
